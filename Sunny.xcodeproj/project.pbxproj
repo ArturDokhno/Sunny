@@ -16,6 +16,7 @@
 		352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD27A2404DD6600FE672A /* ViewController+alertController.swift */; };
 		7567A76727E0D80E004B03B4 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7567A76627E0D80E004B03B4 /* NetworkWeatherManager.swift */; };
 		7567A76927E0D93F004B03B4 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7567A76827E0D93F004B03B4 /* Constans.swift */; };
+		7567A76B27E243C7004B03B4 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7567A76A27E243C7004B03B4 /* CurrentWeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		352AD27A2404DD6600FE672A /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 		7567A76627E0D80E004B03B4 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		7567A76827E0D93F004B03B4 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		7567A76A27E243C7004B03B4 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7567A76627E0D80E004B03B4 /* NetworkWeatherManager.swift */,
+				7567A76A27E243C7004B03B4 /* CurrentWeatherData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				7567A76927E0D93F004B03B4 /* Constans.swift in Sources */,
 				7567A76727E0D80E004B03B4 /* NetworkWeatherManager.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
+				7567A76B27E243C7004B03B4 /* CurrentWeatherData.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
