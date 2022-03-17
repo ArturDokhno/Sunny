@@ -21,18 +21,17 @@ class ViewController: UIViewController {
         self.presentSearchAlertController(withTitle: "Enter city name",
                                           message: nil,
                                           style: .alert) { city in
-            self.networkWeatherManager.fetchCurrentWeather(forCity: city) { currentWeather in
-                print(currentWeather)
-            }
+            self.networkWeatherManager.fetchCurrentWeather(forCity: city)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        networkWeatherManager.fetchCurrentWeather(forCity: "London") { currentWeather in
-            print(currentWeather)
+        networkWeatherManager.onCompletion = { currentWeather in
+            print(currentWeather.cityName)
         }
+        networkWeatherManager.fetchCurrentWeather(forCity: "London")
     }
     
 }
